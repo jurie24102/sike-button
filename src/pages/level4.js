@@ -37,7 +37,7 @@ export default function MovingButtonBerserkPage() {
 
   const handleSubmit = () => {
     alert('You caught the berserk button!');
-    router.push('/loading3');
+    router.push('/thank-you');
   };
 
   return (
