@@ -28,7 +28,7 @@ export default function MovingButtonMaxPage() {
   };
 
   const handleSubmit = () => {
-    router.push('/thank-you');
+    router.push('/loading3');
   };
 
   const detectProximity = (e) => {

@@ -42,7 +42,7 @@ export default function LoadingPage() {
       clearInterval(volumeIncreaseInterval); // Stop increasing volume
       clearInterval(flashLightsInterval); // Stop flashing lights
       siren.pause(); // Stop the siren sound
-      router.push('/level3'); // Redirect to the next page
+      router.push('/level4'); // Redirect to the next page
     }, 5000);
 
     // Cleanup both the timer, flashing lights, and the siren sound when the component unmounts
