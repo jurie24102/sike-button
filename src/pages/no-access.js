@@ -14,7 +14,7 @@ export default function NoAccessPage() {
         Access Denied
       </Typography>
       <Typography variant="h6" sx={{ mb: 2 }}>
-        This website is not accessible on mobile devices.
+        This website is not accessible on small devices.
       </Typography>
     </Box>
   );
